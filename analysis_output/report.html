@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Fashion Sales Analysis</title>
+<style>
+  :root { --bg:#f8f9fa; --card:#fff; --ink:#212529; --muted:#868e96; --line:#e9ecef; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:'Segoe UI',Helvetica,Arial,sans-serif;
+         background:var(--bg); color:var(--ink); line-height:1.55; }
+  .wrap { max-width:1080px; margin:0 auto; padding:32px 22px 70px; }
+  header.hero { text-align:center; padding:26px 0 8px; }
+  header.hero h1 { margin:0; font-size:32px; letter-spacing:-0.5px; }
+  header.hero p { color:var(--muted); margin:8px 0 0; font-size:15px; }
+  .kpis { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin:28px 0; }
+  .kpi { background:var(--card); border-radius:12px; padding:18px 20px;
+          box-shadow:0 1px 3px rgba(0,0,0,.06); }
+  .kpi-label { font-size:13px; color:var(--muted); }
+  .kpi-value { font-size:24px; font-weight:700; margin-top:6px; }
+  section { background:var(--card); border-radius:14px; padding:26px 28px; margin:22px 0;
+             box-shadow:0 1px 3px rgba(0,0,0,.06); }
+  section h2 { margin:0 0 4px; font-size:22px; }
+  section .lead { color:var(--muted); margin:0 0 18px; font-size:14px; }
+  .grid2 { display:grid; grid-template-columns:1fr 1fr; gap:20px; align-items:start; }
+  figure { margin:0; }
+  figure img { width:100%; height:auto; border:1px solid var(--line);
+               border-radius:10px; background:#fff; }
+  figcaption { font-size:12px; color:var(--muted); text-align:center; margin-top:6px; }
+  table { width:100%; border-collapse:collapse; font-size:14px; margin-top:6px; }
+  th, td { padding:10px 12px; text-align:right; border-bottom:1px solid var(--line); }
+  th:first-child, td:first-child { text-align:left; }
+  thead th { background:#f1f3f5; font-weight:600; color:#495057; }
+  tbody tr:hover { background:#f8f9fa; }
+  td.pos { color:#2f9e44; font-weight:600; }
+  td.neg { color:#e03131; font-weight:600; }
+  .finding { background:#f1f3f5; border-left:4px solid var(--primary,#4C6EF5);
+              border-radius:8px; padding:14px 18px; margin:12px 0; }
+  .finding b { color:var(--ink); }
+  ul.findings { margin:6px 0 0; padding-left:20px; }
+  ul.findings li { margin:8px 0; }
+  .tag { display:inline-block; background:#e7f5ff; color:#1971c2; border-radius:999px;
+          padding:2px 10px; font-size:12px; font-weight:600; margin-right:6px; }
+  .note { font-size:13px; color:var(--muted); margin-top:18px; }
+  footer { text-align:center; color:var(--muted); font-size:13px; margin-top:30px; }
+  @media (max-width:820px) {
+    .kpis { grid-template-columns:repeat(2,1fr); }
+    .grid2 { grid-template-columns:1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <h1>Fashion Sales Analysis</h1>
+    <p>24 months of sales &middot; 5 categories &middot; Online vs Store &middot; Jan 2024 &ndash; Dec 2025</p>
+  </header>
+
+  <div class="kpis"><div class="kpi" style="border-top:4px solid #4C6EF5"><div class="kpi-label">Total Revenue</div><div class="kpi-value">$13,220,482</div></div><div class="kpi" style="border-top:4px solid #12B886"><div class="kpi-label">YoY Revenue Growth</div><div class="kpi-value">+6.4%</div></div><div class="kpi" style="border-top:4px solid #12B886"><div class="kpi-label">Total Units Sold</div><div class="kpi-value">202,500</div></div><div class="kpi" style="border-top:4px solid #F76707"><div class="kpi-label">Avg Selling Price</div><div class="kpi-value">$65.29</div></div><div class="kpi" style="border-top:4px solid #7048E8"><div class="kpi-label">Avg Discount</div><div class="kpi-value">22.6%</div></div><div class="kpi" style="border-top:4px solid #0CA678"><div class="kpi-label">Overall ROAS</div><div class="kpi-value">5.66x</div></div></div>
+
+  <section>
+    <h2>Executive Summary</h2>
+    <p class="lead">The big picture in plain language.</p>
+    <div class="finding">
+      <b>Outerwear</b> is the top category with <b>$4,045,992</b> in
+      revenue (31% of the total), while
+      <b>Accessories</b> is the smallest at $1,306,281.
+      Overall, <b>Online</b> is the stronger channel at
+      <b>53%</b> of revenue.
+      The average selling price is <b>$65.29</b> with an
+      average discount of <b>22.6%</b>.
+    </div>
+  </section>
+
+  <section>
+    <h2>Sales by Category</h2>
+    <p class="lead">Which product categories bring in the most revenue and units.</p>
+    <div class="grid2">
+      <figure><img src="charts/01_revenue_by_category.svg" alt="Total revenue by category"/><figcaption>Total revenue by category</figcaption></figure>
+      <figure><img src="charts/02_revenue_share_category.svg" alt="Share of total revenue by category"/><figcaption>Share of total revenue by category</figcaption></figure>
+    </div>
+    <div style="margin-top:22px"><figure><img src="charts/03_units_by_category.svg" alt="Units sold by category"/><figcaption>Units sold by category</figcaption></figure></div>
+    <h3 style="margin:26px 0 6px">Category breakdown</h3>
+    <table>
+      <thead><tr><th>Category</th><th>Revenue</th><th>Units</th>
+        <th>Avg Price</th><th>Avg Disc.</th><th>Rating</th><th>Return Rate</th></tr></thead>
+      <tbody><tr><td><b>Outerwear</b></td><td>$4,045,992</td><td>31,905</td><td>$126.81</td><td>25.0%</td><td>4.23</td><td>14.1%</td></tr><tr><td><b>Dresses</b></td><td>$2,995,076</td><td>47,760</td><td>$62.71</td><td>22.3%</td><td>4.23</td><td>21.9%</td></tr><tr><td><b>Footwear</b></td><td>$2,794,483</td><td>33,765</td><td>$82.76</td><td>20.8%</td><td>4.20</td><td>22.4%</td></tr><tr><td><b>Denim</b></td><td>$2,078,650</td><td>39,984</td><td>$51.99</td><td>22.9%</td><td>4.18</td><td>14.5%</td></tr><tr><td><b>Accessories</b></td><td>$1,306,281</td><td>49,086</td><td>$26.61</td><td>21.8%</td><td>4.25</td><td>13.9%</td></tr></tbody>
+    </table>
+    <div class="finding" style="margin-top:20px">
+      <b>What this means:</b> Outerwear leads on revenue, but the ranking by
+      <i>units</i> can differ from the ranking by <i>revenue</i> because higher-priced
+      items earn more per unit. Use this table to see which categories are
+      "high volume / low price" versus "low volume / high price".
+    </div>
+  </section>
+
+  <section>
+    <h2>Sales by Channel: Online vs Store</h2>
+    <p class="lead">How the two sales channels compare.</p>
+    <div class="grid2">
+      <figure><img src="charts/04_revenue_by_channel.svg" alt="Revenue by channel"/><figcaption>Revenue by channel</figcaption></figure>
+      <figure><img src="charts/06_channel_share.svg" alt="Revenue share by channel"/><figcaption>Revenue share by channel</figcaption></figure>
+    </div>
+    <div class="grid2" style="margin-top:22px">
+      <figure><img src="charts/05_units_by_channel.svg" alt="Units sold by channel"/><figcaption>Units sold by channel</figcaption></figure>
+      <div>
+        <table>
+          <thead><tr><th>Channel</th><th>Revenue</th><th>Units</th>
+            <th>Avg Price</th><th>Disc.</th><th>Ret. Rate</th></tr></thead>
+          <tbody><tr><td><b>Online</b></td><td>$6,966,152</td><td>105,687</td><td>$65.91</td><td>21.1%</td><td>4.15</td><td>24.7%</td></tr><tr><td><b>Store</b></td><td>$6,254,329</td><td>96,813</td><td>$64.60</td><td>24.0%</td><td>4.29</td><td>10.0%</td></tr></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="finding" style="margin-top:20px">
+      <b>What this means:</b> <b>Online</b> generates more revenue
+      ($6,966,152 vs $6,254,329).
+      Compare the <i>average selling price</i> and <i>return rate</i> columns to see
+      whether one channel sells pricier items or has more returns.
+    </div>
+  </section>
+
+  <section>
+    <h2>Monthly Sales Trends</h2>
+    <p class="lead">How sales move month to month across the two years.</p>
+    <figure><img src="charts/07_monthly_revenue_trend.svg" alt="Monthly revenue: Online vs Store"/><figcaption>Monthly revenue: Online vs Store</figcaption></figure>
+    <div style="margin-top:22px"><figure><img src="charts/08_monthly_total_revenue.svg" alt="Total monthly revenue"/><figcaption>Total monthly revenue</figcaption></figure></div>
+    <div class="finding" style="margin-top:20px">
+      <b>What this means:</b> The strongest month was <b>2025-12</b>
+      ($754,943) and the weakest was <b>2024-06</b>
+      ($453,369). Look for repeating up/down patterns &mdash;
+      these are <b>seasonal effects</b> (e.g., colder months lifting Outerwear).
+    </div>
+  </section>
+
+  <section>
+    <h2>Average Selling Price</h2>
+    <p class="lead">The typical price customers actually pay, by category.</p>
+    <figure><img src="charts/09_avg_selling_price_by_category.svg" alt="Average selling price by category"/><figcaption>Average selling price by category</figcaption></figure>
+    <div class="finding" style="margin-top:20px">
+      <b>What this means:</b> Average selling price = total revenue &divide; total units.
+      It already reflects discounts, so it is the real realized price &mdash; not the
+      sticker (list) price. Categories with a high average price contribute more
+      revenue per item sold.
+    </div>
+  </section>
+
+  <section>
+    <h2>Discount Analysis</h2>
+    <p class="lead">Does discounting actually lift sales, and where does revenue come from?</p>
+    <div class="grid2">
+      <figure><img src="charts/10_revenue_by_discount_band.svg" alt="Revenue by discount band"/><figcaption>Revenue by discount band</figcaption></figure>
+      <figure><img src="charts/11_units_by_discount_band.svg" alt="Units by discount band"/><figcaption>Units by discount band</figcaption></figure>
+    </div>
+    <div class="grid2" style="margin-top:22px">
+      <figure><img src="charts/12_avg_discount_by_category.svg" alt="Average discount by category"/><figcaption>Average discount by category</figcaption></figure>
+      <figure><img src="charts/13_avg_units_per_listing_by_discount.svg" alt="Avg units per listing by discount band"/><figcaption>Avg units per listing by discount band</figcaption></figure>
+    </div>
+    <h3 style="margin:26px 0 6px">Discount band breakdown</h3>
+    <table>
+      <thead><tr><th>Discount Band</th><th>Listings</th><th>Revenue</th>
+        <th>Units</th><th>Avg Rev / Listing</th></tr></thead>
+      <tbody><tr><td>0% (none)</td><td>43</td><td>$2,076,516</td><td>25,215</td><td>$48,291.08</td></tr><tr><td>1-15%</td><td>25</td><td>$1,274,840</td><td>17,839</td><td>$50,993.60</td></tr><tr><td>16-25%</td><td>73</td><td>$3,684,265</td><td>57,736</td><td>$50,469.39</td></tr><tr><td>26-35%</td><td>46</td><td>$2,844,001</td><td>41,890</td><td>$61,826.11</td></tr><tr><td>36-40%</td><td>53</td><td>$3,340,859</td><td>59,820</td><td>$63,035.07</td></tr></tbody>
+    </table>
+    <div class="finding" style="margin-top:20px">
+      <b>What this means:</b> The <b>16-25%</b> band brings in the most revenue.
+      The correlation between discount and units sold is
+      <b>+0.51</b> (a fairly strong positive).
+      A value near 0 means bigger discounts are <i>not</i> strongly tied to selling more
+      units in this dataset &mdash; a signal that discounting may be eroding margin
+      without a clear volume payoff.
+    </div>
+  </section>
+
+  <section>
+    <h2>Year-over-Year Growth</h2>
+    <p class="lead">How revenue changed from 2024 to 2025, overall and by category.</p>
+    <div class="finding">
+      Total revenue grew by
+      <b>+6.4%</b> from 2024 to 2025. The fastest-growing category was
+      <b>Dresses</b> (+8.7%), while
+      <b>Footwear</b> grew the least
+      (+5.1%).
+    </div>
+    <div class="grid2" style="margin-top:20px">
+      <figure><img src="charts/14_yoy_revenue_by_category.svg" alt="Revenue by category: 2024 vs 2025"/><figcaption>Revenue by category: 2024 vs 2025</figcaption></figure>
+      <figure><img src="charts/15_yoy_growth_pct_by_category.svg" alt="YoY growth % by category"/><figcaption>YoY growth % by category</figcaption></figure>
+    </div>
+    <h3 style="margin:26px 0 6px">Growth by category</h3>
+    <table>
+      <thead><tr><th>Category</th><th>2024 Revenue</th><th>2025 Revenue</th>
+        <th>Growth %</th></tr></thead>
+      <tbody><tr><td><b>Dresses</b></td><td>$1,435,049</td><td>$1,560,027</td><td class="pos">+8.7%</td></tr><tr><td><b>Accessories</b></td><td>$631,974</td><td>$674,307</td><td class="pos">+6.7%</td></tr><tr><td><b>Denim</b></td><td>$1,008,615</td><td>$1,070,034</td><td class="pos">+6.1%</td></tr><tr><td><b>Outerwear</b></td><td>$1,968,818</td><td>$2,077,174</td><td class="pos">+5.5%</td></tr><tr><td><b>Footwear</b></td><td>$1,362,279</td><td>$1,432,204</td><td class="pos">+5.1%</td></tr></tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Category &times; Channel Heatmap</h2>
+    <p class="lead">Where revenue concentrates &mdash; which categories sell best in each channel.</p>
+    <figure><img src="charts/16_heatmap_category_channel.svg" alt="Revenue heatmap: category vs channel"/><figcaption>Revenue heatmap: category vs channel</figcaption></figure>
+    <h3 style="margin:26px 0 6px">Revenue matrix</h3>
+    <table>
+      <thead><tr><th>Category</th><th>Online</th><th>Store</th></tr></thead>
+      <tbody><tr><td><b>Accessories</b></td><td style="background:#1c4fd8;color:#ffffff;font-weight:700">$693,555</td><td style="background:#3362dc;color:#ffffff;font-weight:700">$612,727</td></tr><tr><td><b>Denim</b></td><td style="background:#1c4fd8;color:#ffffff;font-weight:700">$1,068,697</td><td style="background:#2758da;color:#ffffff;font-weight:700">$1,009,953</td></tr><tr><td><b>Dresses</b></td><td style="background:#1c4fd8;color:#ffffff;font-weight:700">$1,585,366</td><td style="background:#3261dc;color:#ffffff;font-weight:700">$1,409,710</td></tr><tr><td><b>Footwear</b></td><td style="background:#1c4fd8;color:#ffffff;font-weight:700">$1,459,927</td><td style="background:#2d5ddb;color:#ffffff;font-weight:700">$1,334,556</td></tr><tr><td><b>Outerwear</b></td><td style="background:#1c4fd8;color:#ffffff;font-weight:700">$2,158,608</td><td style="background:#3563dc;color:#ffffff;font-weight:700">$1,887,384</td></tr></tbody>
+    </table>
+    <div class="finding" style="margin-top:20px">
+      <b>What this means:</b> Each cell is the total revenue for that category in that
+      channel. Darker cells = bigger sellers. This quickly reveals, for example, whether a
+      category over-indexes Online vs Store.
+    </div>
+  </section>
+
+  <section>
+    <h2>Ad-Spend ROI by Category</h2>
+    <p class="lead">Which categories turn marketing dollars into the most revenue?</p>
+    <div class="finding">
+      Overall, every <b>$1</b> of ad spend returns <b>5.66x</b> in revenue
+      (ROAS). The most efficient category is <b>Outerwear</b> at
+      <b>8.52x</b>; the least efficient is
+      <b>Accessories</b> at <b>2.81x</b>.
+    </div>
+    <div class="grid2" style="margin-top:20px">
+      <figure><img src="charts/17_ad_spend_roas_by_category.svg" alt="ROAS by category"/><figcaption>ROAS by category</figcaption></figure>
+      <figure><img src="charts/18_adspend_vs_revenue_by_category.svg" alt="Ad spend vs revenue by category"/><figcaption>Ad spend vs revenue by category</figcaption></figure>
+    </div>
+    <h3 style="margin:26px 0 6px">ROI breakdown</h3>
+    <table>
+      <thead><tr><th>Category</th><th>Ad Spend</th><th>Revenue</th>
+        <th>ROAS</th><th>Revenue after Ads</th></tr></thead>
+      <tbody><tr><td><b>Outerwear</b></td><td>$474,890</td><td>$4,045,992</td><td><b>8.52x</b></td><td>$3,571,102</td></tr><tr><td><b>Dresses</b></td><td>$456,100</td><td>$2,995,076</td><td><b>6.57x</b></td><td>$2,538,976</td></tr><tr><td><b>Footwear</b></td><td>$452,080</td><td>$2,794,483</td><td><b>6.18x</b></td><td>$2,342,403</td></tr><tr><td><b>Denim</b></td><td>$489,100</td><td>$2,078,650</td><td><b>4.25x</b></td><td>$1,589,550</td></tr><tr><td><b>Accessories</b></td><td>$465,360</td><td>$1,306,281</td><td><b>2.81x</b></td><td>$840,921</td></tr></tbody>
+    </table>
+    <p class="note">ROAS (Return on Ad Spend) = revenue &divide; ad spend. An ROAS of 3x means
+      each $1 of advertising produced $3 of revenue.</p>
+  </section>
+
+  <section>
+    <h2>Other Useful Signals</h2>
+    <p class="lead">Quick correlations that hint at what drives results.</p>
+    <ul class="findings">
+      <li><span class="tag">Ratings &rarr; Returns</span>
+        Correlation <b>-0.35</b> (a moderate negative).
+        Higher-rated products tend to get returned less often.</li>
+      <li><span class="tag">Ad Spend &rarr; Revenue</span>
+        Correlation <b>+0.21</b> (a weak positive).
+        More ad spend is associated with higher revenue &mdash; marketing appears to pay off.</li>
+      <li><span class="tag">Ad Spend &rarr; Units</span>
+        Correlation <b>+0.25</b> (a weak positive).</li>
+      <li><span class="tag">Rating &rarr; Units</span>
+        Correlation <b>+0.13</b> (a weak positive).</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>How to Read This Report</h2>
+    <ul class="findings">
+      <li><b>Revenue</b> = units sold &times; sale price, summed. It is the top-line sales figure.</li>
+      <li><b>Units</b> = number of items sold (volume, ignoring price).</li>
+      <li><b>Average Selling Price</b> = total revenue &divide; total units (the real price paid).</li>
+      <li><b>Discount %</b> = percent off the list price.</li>
+      <li><b>Return Rate</b> = share of items returned (quality / satisfaction signal).</li>
+      <li><b>Correlation</b> ranges from &minus;1 to +1: near 0 = no link, near &plusmn;1 = strong link.</li>
+    </ul>
+    <p class="note">Source data: <code>fashion_sales.csv</code> (240 rows, unmodified).
+      This report was generated by <code>sales_analysis.py</code>.
+      Charts are available as both vector SVG (in <code>charts/</code>) and
+      high-resolution PNG (in <code>charts_png/</code>).</p>
+  </section>
+
+  <footer>Generated automatically &middot; Fashion Sales Analysis</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="520" viewBox="0 0 940 520" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<rect width="940" height="520" fill="#ffffff"/>
+<text x="470.0" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#212529">Ad Spend vs Revenue by Category</text>
+<text x="470.0" y="56" text-anchor="middle" font-size="13" fill="#868e96">Compare marketing investment against the revenue it generates</text>
+<line x1="90" y1="425.0" x2="900" y2="425.0" stroke="#f1f3f5" stroke-width="1"/>
+<text x="80" y="429.0" text-anchor="end" font-size="11" fill="#868e96">$0</text>
+<line x1="90" y1="360.0" x2="900" y2="360.0" stroke="#f1f3f5" stroke-width="1"/>
+<text x="80" y="364.0" text-anchor="end" font-size="11" fill="#868e96">$1.00M</text>
+<line x1="90" y1="295.0" x2="900" y2="295.0" stroke="#f1f3f5" stroke-width="1"/>
+<text x="80" y="299.0" text-anchor="end" font-size="11" fill="#868e96">$2.00M</text>
+<line x1="90" y1="230.0" x2="900" y2="230.0" stroke="#f1f3f5" stroke-width="1"/>
+<text x="80" y="234.0" text-anchor="end" font-size="11" fill="#868e96">$3.00M</text>
+<line x1="90" y1="165.0" x2="900" y2="165.0" stroke="#f1f3f5" stroke-width="1"/>
+<text x="80" y="169.0" text-anchor="end" font-size="11" fill="#868e96">$4.00M</text>
+<line x1="90" y1="100.0" x2="900" y2="100.0" stroke="#f1f3f5" stroke-width="1"/>
+<text x="80" y="104.0" text-anchor="end" font-size="11" fill="#868e96">$5.00M</text>
+<text x="171.0" y="447" text-anchor="middle" font-size="12" fill="#495057">Outerwear</text>
+<rect x="119.2" y="394.1" width="49.8" height="30.9" rx="3" fill="#ADB5BD"/>
+<rect x="171.0" y="162.0" width="49.8" height="263.0" rx="3" fill="#12B886"/>
+<text x="333.0" y="447" text-anchor="middle" font-size="12" fill="#495057">Dresses</text>
+<rect x="281.2" y="395.4" width="49.8" height="29.6" rx="3" fill="#ADB5BD"/>
+<rect x="333.0" y="230.3" width="49.8" height="194.7" rx="3" fill="#12B886"/>
+<text x="495.0" y="447" text-anchor="middle" font-size="12" fill="#495057">Footwear</text>
+<rect x="443.2" y="395.6" width="49.8" height="29.4" rx="3" fill="#ADB5BD"/>
+<rect x="495.0" y="243.4" width="49.8" height="181.6" rx="3" fill="#12B886"/>
+<text x="657.0" y="447" text-anchor="middle" font-size="12" fill="#495057">Denim</text>
+<rect x="605.2" y="393.2" width="49.8" height="31.8" rx="3" fill="#ADB5BD"/>
+<rect x="657.0" y="289.9" width="49.8" height="135.1" rx="3" fill="#12B886"/>
+<text x="819.0" y="447" text-anchor="middle" font-size="12" fill="#495057">Accessories</text>
+<rect x="767.2" y="394.8" width="49.8" height="30.2" rx="3" fill="#ADB5BD"/>
+<rect x="819.0" y="340.1" width="49.8" height="84.9" rx="3" fill="#12B886"/>
+<rect x="600" y="70" width="14" height="14" rx="3" fill="#ADB5BD"/>
+<text x="620" y="82" font-size="13" fill="#495057">Ad Spend</text>
+<rect x="750" y="70" width="14" height="14" rx="3" fill="#12B886"/>
+<text x="770" y="82" font-size="13" fill="#495057">Revenue</text>
+<text x="926" y="510" text-anchor="end" font-size="11" fill="#ced4da">fashion_sales.csv</text>
+</svg>

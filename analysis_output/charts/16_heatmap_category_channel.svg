@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="612" height="520" viewBox="0 0 612 520" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<rect width="612" height="520" fill="#ffffff"/>
+<text x="306.0" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#212529">Revenue Heatmap: Category × Channel</text>
+<text x="306.0" y="56" text-anchor="middle" font-size="13" fill="#868e96">Darker = more revenue. Each cell is total revenue.</text>
+<text x="285.0" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#343a40">Online</text>
+<text x="481.0" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#343a40">Store</text>
+<text x="174" y="137.0" text-anchor="end" font-size="15" font-weight="600" fill="#343a40">Accessories</text>
+<rect x="190" y="100" width="190" height="64" rx="8" fill="#dcecfc"/>
+<text x="285.0" y="138.0" text-anchor="middle" font-size="17" font-weight="700" fill="#1b2a4a">$694K</text>
+<rect x="386" y="100" width="190" height="64" rx="8" fill="#e7f5ff"/>
+<text x="481.0" y="138.0" text-anchor="middle" font-size="17" font-weight="700" fill="#1b2a4a">$613K</text>
+<text x="174" y="207.0" text-anchor="end" font-size="15" font-weight="600" fill="#343a40">Denim</text>
+<rect x="190" y="170" width="190" height="64" rx="8" fill="#abc4f3"/>
+<text x="285.0" y="208.0" text-anchor="middle" font-size="17" font-weight="700" fill="#1b2a4a">$1.07M</text>
+<rect x="386" y="170" width="190" height="64" rx="8" fill="#b2caf4"/>
+<text x="481.0" y="208.0" text-anchor="middle" font-size="17" font-weight="700" fill="#1b2a4a">$1.01M</text>
+<text x="174" y="277.0" text-anchor="end" font-size="15" font-weight="600" fill="#343a40">Dresses</text>
+<rect x="190" y="240" width="190" height="64" rx="8" fill="#678ce6"/>
+<text x="285.0" y="278.0" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">$1.59M</text>
+<rect x="386" y="240" width="190" height="64" rx="8" fill="#7e9fea"/>
+<text x="481.0" y="278.0" text-anchor="middle" font-size="17" font-weight="700" fill="#1b2a4a">$1.41M</text>
+<text x="174" y="347.0" text-anchor="end" font-size="15" font-weight="600" fill="#343a40">Footwear</text>
+<rect x="190" y="310" width="190" height="64" rx="8" fill="#779ae9"/>
+<text x="285.0" y="348.0" text-anchor="middle" font-size="17" font-weight="700" fill="#1b2a4a">$1.46M</text>
+<rect x="386" y="310" width="190" height="64" rx="8" fill="#88a7ec"/>
+<text x="481.0" y="348.0" text-anchor="middle" font-size="17" font-weight="700" fill="#1b2a4a">$1.33M</text>
+<text x="174" y="417.0" text-anchor="end" font-size="15" font-weight="600" fill="#343a40">Outerwear</text>
+<rect x="190" y="380" width="190" height="64" rx="8" fill="#1c4fd8"/>
+<text x="285.0" y="418.0" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">$2.16M</text>
+<rect x="386" y="380" width="190" height="64" rx="8" fill="#3f6cde"/>
+<text x="481.0" y="418.0" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">$1.89M</text>
+<text x="190" y="474" font-size="12" fill="#868e96">Low</text>
+<rect x="230" y="462" width="1" height="16" fill="#e7f5ff"/>
+<rect x="231" y="462" width="1" height="16" fill="#e5f3fe"/>
+<rect x="232" y="462" width="1" height="16" fill="#e3f2fe"/>
+<rect x="233" y="462" width="1" height="16" fill="#e1f0fe"/>
+<rect x="234" y="462" width="1" height="16" fill="#e0effd"/>
+<rect x="235" y="462" width="1" height="16" fill="#deeefd"/>
+<rect x="236" y="462" width="1" height="16" fill="#dcecfd"/>
+<rect x="237" y="462" width="1" height="16" fill="#dbebfc"/>
+<rect x="238" y="462" width="1" height="16" fill="#d9e9fc"/>
+<rect x="239" y="462" width="1" height="16" fill="#d7e8fc"/>
+<rect x="240" y="462" width="1" height="16" fill="#d5e7fb"/>
+<rect x="241" y="462" width="1" height="16" fill="#d4e5fb"/>
+<rect x="242" y="462" width="1" height="16" fill="#d2e4fb"/>
+<rect x="243" y="462" width="1" height="16" fill="#d0e2fa"/>
+<rect x="244" y="462" width="1" height="16" fill="#cfe1fa"/>
+<rect x="245" y="462" width="1" height="16" fill="#cde0fa"/>
+<rect x="246" y="462" width="1" height="16" fill="#cbdef9"/>
+<rect x="247" y="462" width="1" height="16" fill="#caddf9"/>
+<rect x="248" y="462" width="1" height="16" fill="#c8dbf9"/>
+<rect x="249" y="462" width="1" height="16" fill="#c6daf8"/>
+<rect x="250" y="462" width="1" height="16" fill="#c4d9f8"/>
+<rect x="251" y="462" width="1" height="16" fill="#c3d7f8"/>
+<rect x="252" y="462" width="1" height="16" fill="#c1d6f7"/>
+<rect x="253" y="462" width="1" height="16" fill="#bfd4f7"/>
+<rect x="254" y="462" width="1" height="16" fill="#bed3f7"/>
+<rect x="255" y="462" width="1" height="16" fill="#bcd2f6"/>
+<rect x="256" y="462" width="1" height="16" fill="#bad0f6"/>
+<rect x="257" y="462" width="1" height="16" fill="#b8cff6"/>
+<rect x="258" y="462" width="1" height="16" fill="#b7cdf5"/>
+<rect x="259" y="462" width="1" height="16" fill="#b5ccf5"/>
+<rect x="260" y="462" width="1" height="16" fill="#b3cbf5"/>
+<rect x="261" y="462" width="1" height="16" fill="#b2c9f4"/>
+<rect x="262" y="462" width="1" height="16" fill="#b0c8f4"/>
+<rect x="263" y="462" width="1" height="16" fill="#aec6f4"/>
+<rect x="264" y="462" width="1" height="16" fill="#adc5f3"/>
+<rect x="265" y="462" width="1" height="16" fill="#abc4f3"/>
+<rect x="266" y="462" width="1" height="16" fill="#a9c2f3"/>
+<rect x="267" y="462" width="1" height="16" fill="#a7c1f2"/>
+<rect x="268" y="462" width="1" height="16" fill="#a6bff2"/>
+<rect x="269" y="462" width="1" height="16" fill="#a4bef2"/>
+<rect x="270" y="462" width="1" height="16" fill="#a2bdf1"/>
+<rect x="271" y="462" width="1" height="16" fill="#a1bbf1"/>
+<rect x="272" y="462" width="1" height="16" fill="#9fbaf1"/>
+<rect x="273" y="462" width="1" height="16" fill="#9db9f0"/>
+<rect x="274" y="462" width="1" height="16" fill="#9bb7f0"/>
+<rect x="275" y="462" width="1" height="16" fill="#9ab6f0"/>
+<rect x="276" y="462" width="1" height="16" fill="#98b4ef"/>
+<rect x="277" y="462" width="1" height="16" fill="#96b3ef"/>
+<rect x="278" y="462" width="1" height="16" fill="#95b2ef"/>
+<rect x="279" y="462" width="1" height="16" fill="#93b0ee"/>
+<rect x="280" y="462" width="1" height="16" fill="#91afee"/>
+<rect x="281" y="462" width="1" height="16" fill="#90adee"/>
+<rect x="282" y="462" width="1" height="16" fill="#8eaced"/>
+<rect x="283" y="462" width="1" height="16" fill="#8cabed"/>
+<rect x="284" y="462" width="1" height="16" fill="#8aa9ed"/>
+<rect x="285" y="462" width="1" height="16" fill="#89a8ec"/>
+<rect x="286" y="462" width="1" height="16" fill="#87a6ec"/>
+<rect x="287" y="462" width="1" height="16" fill="#85a5ec"/>
+<rect x="288" y="462" width="1" height="16" fill="#84a4eb"/>
+<rect x="289" y="462" width="1" height="16" fill="#82a2eb"/>
+<rect x="290" y="462" width="1" height="16" fill="#80a1eb"/>
+<rect x="291" y="462" width="1" height="16" fill="#7e9feb"/>
+<rect x="292" y="462" width="1" height="16" fill="#7d9eea"/>
+<rect x="293" y="462" width="1" height="16" fill="#7b9dea"/>
+<rect x="294" y="462" width="1" height="16" fill="#799bea"/>
+<rect x="295" y="462" width="1" height="16" fill="#789ae9"/>
+<rect x="296" y="462" width="1" height="16" fill="#7698e9"/>
+<rect x="297" y="462" width="1" height="16" fill="#7497e9"/>
+<rect x="298" y="462" width="1" height="16" fill="#7396e8"/>
+<rect x="299" y="462" width="1" height="16" fill="#7194e8"/>
+<rect x="300" y="462" width="1" height="16" fill="#6f93e8"/>
+<rect x="301" y="462" width="1" height="16" fill="#6d91e7"/>
+<rect x="302" y="462" width="1" height="16" fill="#6c90e7"/>
+<rect x="303" y="462" width="1" height="16" fill="#6a8fe7"/>
+<rect x="304" y="462" width="1" height="16" fill="#688de6"/>
+<rect x="305" y="462" width="1" height="16" fill="#678ce6"/>
+<rect x="306" y="462" width="1" height="16" fill="#658ae6"/>
+<rect x="307" y="462" width="1" height="16" fill="#6389e5"/>
+<rect x="308" y="462" width="1" height="16" fill="#6188e5"/>
+<rect x="309" y="462" width="1" height="16" fill="#6086e5"/>
+<rect x="310" y="462" width="1" height="16" fill="#5e85e4"/>
+<rect x="311" y="462" width="1" height="16" fill="#5c84e4"/>
+<rect x="312" y="462" width="1" height="16" fill="#5b82e4"/>
+<rect x="313" y="462" width="1" height="16" fill="#5981e3"/>
+<rect x="314" y="462" width="1" height="16" fill="#577fe3"/>
+<rect x="315" y="462" width="1" height="16" fill="#567ee3"/>
+<rect x="316" y="462" width="1" height="16" fill="#547de2"/>
+<rect x="317" y="462" width="1" height="16" fill="#527be2"/>
+<rect x="318" y="462" width="1" height="16" fill="#507ae2"/>
+<rect x="319" y="462" width="1" height="16" fill="#4f78e1"/>
+<rect x="320" y="462" width="1" height="16" fill="#4d77e1"/>
+<rect x="321" y="462" width="1" height="16" fill="#4b76e1"/>
+<rect x="322" y="462" width="1" height="16" fill="#4a74e0"/>
+<rect x="323" y="462" width="1" height="16" fill="#4873e0"/>
+<rect x="324" y="462" width="1" height="16" fill="#4671e0"/>
+<rect x="325" y="462" width="1" height="16" fill="#4470df"/>
+<rect x="326" y="462" width="1" height="16" fill="#436fdf"/>
+<rect x="327" y="462" width="1" height="16" fill="#416ddf"/>
+<rect x="328" y="462" width="1" height="16" fill="#3f6cde"/>
+<rect x="329" y="462" width="1" height="16" fill="#3e6ade"/>
+<rect x="330" y="462" width="1" height="16" fill="#3c69de"/>
+<rect x="331" y="462" width="1" height="16" fill="#3a68dd"/>
+<rect x="332" y="462" width="1" height="16" fill="#3966dd"/>
+<rect x="333" y="462" width="1" height="16" fill="#3765dd"/>
+<rect x="334" y="462" width="1" height="16" fill="#3563dc"/>
+<rect x="335" y="462" width="1" height="16" fill="#3362dc"/>
+<rect x="336" y="462" width="1" height="16" fill="#3261dc"/>
+<rect x="337" y="462" width="1" height="16" fill="#305fdb"/>
+<rect x="338" y="462" width="1" height="16" fill="#2e5edb"/>
+<rect x="339" y="462" width="1" height="16" fill="#2d5cdb"/>
+<rect x="340" y="462" width="1" height="16" fill="#2b5bda"/>
+<rect x="341" y="462" width="1" height="16" fill="#295ada"/>
+<rect x="342" y="462" width="1" height="16" fill="#2758da"/>
+<rect x="343" y="462" width="1" height="16" fill="#2657d9"/>
+<rect x="344" y="462" width="1" height="16" fill="#2455d9"/>
+<rect x="345" y="462" width="1" height="16" fill="#2254d9"/>
+<rect x="346" y="462" width="1" height="16" fill="#2153d8"/>
+<rect x="347" y="462" width="1" height="16" fill="#1f51d8"/>
+<rect x="348" y="462" width="1" height="16" fill="#1d50d8"/>
+<rect x="349" y="462" width="1" height="16" fill="#1c4fd8"/>
+<text x="360" y="474" font-size="12" fill="#868e96">High</text>
+<text x="598" y="510" text-anchor="end" font-size="11" fill="#ced4da">fashion_sales.csv</text>
+</svg>

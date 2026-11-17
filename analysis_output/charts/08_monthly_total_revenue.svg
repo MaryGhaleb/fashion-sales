@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="520" viewBox="0 0 980 520" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<rect width="980" height="520" fill="#ffffff"/>
+<text x="490.0" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#212529">Monthly Total Revenue Trend</text>
+<text x="490.0" y="56" text-anchor="middle" font-size="13" fill="#868e96">Total revenue per month across all categories and channels</text>
+<line x1="90" y1="420.0" x2="830" y2="420.0" stroke="#f1f3f5" stroke-width="1"/>
+<text x="80" y="424.0" text-anchor="end" font-size="11" fill="#868e96">$0</text>
+<line x1="90" y1="356.0" x2="830" y2="356.0" stroke="#f1f3f5" stroke-width="1"/>
+<text x="80" y="360.0" text-anchor="end" font-size="11" fill="#868e96">$160K</text>
+<line x1="90" y1="292.0" x2="830" y2="292.0" stroke="#f1f3f5" stroke-width="1"/>
+<text x="80" y="296.0" text-anchor="end" font-size="11" fill="#868e96">$320K</text>
+<line x1="90" y1="228.0" x2="830" y2="228.0" stroke="#f1f3f5" stroke-width="1"/>
+<text x="80" y="232.0" text-anchor="end" font-size="11" fill="#868e96">$480K</text>
+<line x1="90" y1="164.0" x2="830" y2="164.0" stroke="#f1f3f5" stroke-width="1"/>
+<text x="80" y="168.0" text-anchor="end" font-size="11" fill="#868e96">$640K</text>
+<line x1="90" y1="100.0" x2="830" y2="100.0" stroke="#f1f3f5" stroke-width="1"/>
+<text x="80" y="104.0" text-anchor="end" font-size="11" fill="#868e96">$800K</text>
+<text x="90.0" y="442" text-anchor="middle" font-size="10" fill="#868e96" transform="rotate(45 90.0 442)">2024-01</text>
+<text x="154.3" y="442" text-anchor="middle" font-size="10" fill="#868e96" transform="rotate(45 154.3 442)">2024-03</text>
+<text x="218.7" y="442" text-anchor="middle" font-size="10" fill="#868e96" transform="rotate(45 218.7 442)">2024-05</text>
+<text x="283.0" y="442" text-anchor="middle" font-size="10" fill="#868e96" transform="rotate(45 283.0 442)">2024-07</text>
+<text x="347.4" y="442" text-anchor="middle" font-size="10" fill="#868e96" transform="rotate(45 347.4 442)">2024-09</text>
+<text x="411.7" y="442" text-anchor="middle" font-size="10" fill="#868e96" transform="rotate(45 411.7 442)">2024-11</text>
+<text x="476.1" y="442" text-anchor="middle" font-size="10" fill="#868e96" transform="rotate(45 476.1 442)">2025-01</text>
+<text x="540.4" y="442" text-anchor="middle" font-size="10" fill="#868e96" transform="rotate(45 540.4 442)">2025-03</text>
+<text x="604.8" y="442" text-anchor="middle" font-size="10" fill="#868e96" transform="rotate(45 604.8 442)">2025-05</text>
+<text x="669.1" y="442" text-anchor="middle" font-size="10" fill="#868e96" transform="rotate(45 669.1 442)">2025-07</text>
+<text x="733.5" y="442" text-anchor="middle" font-size="10" fill="#868e96" transform="rotate(45 733.5 442)">2025-09</text>
+<text x="797.8" y="442" text-anchor="middle" font-size="10" fill="#868e96" transform="rotate(45 797.8 442)">2025-11</text>
+<text x="830.0" y="442" text-anchor="middle" font-size="10" fill="#868e96" transform="rotate(45 830.0 442)">2025-12</text>
+<polyline points="90.0,216.6 122.2,228.5 154.3,215.2 186.5,230.7 218.7,208.4 250.9,238.7 283.0,211.5 315.2,234.8 347.4,223.5 379.6,204.3 411.7,125.4 443.9,139.7 476.1,196.3 508.3,216.5 540.4,197.7 572.6,207.7 604.8,208.0 637.0,210.5 669.1,192.6 701.3,191.4 733.5,221.4 765.7,215.2 797.8,139.3 830.0,118.0" fill="none" stroke="#4C6EF5" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="90.0" cy="216.6" r="3" fill="#4C6EF5"/>
+<circle cx="122.2" cy="228.5" r="3" fill="#4C6EF5"/>
+<circle cx="154.3" cy="215.2" r="3" fill="#4C6EF5"/>
+<circle cx="186.5" cy="230.7" r="3" fill="#4C6EF5"/>
+<circle cx="218.7" cy="208.4" r="3" fill="#4C6EF5"/>
+<circle cx="250.9" cy="238.7" r="3" fill="#4C6EF5"/>
+<circle cx="283.0" cy="211.5" r="3" fill="#4C6EF5"/>
+<circle cx="315.2" cy="234.8" r="3" fill="#4C6EF5"/>
+<circle cx="347.4" cy="223.5" r="3" fill="#4C6EF5"/>
+<circle cx="379.6" cy="204.3" r="3" fill="#4C6EF5"/>
+<circle cx="411.7" cy="125.4" r="3" fill="#4C6EF5"/>
+<circle cx="443.9" cy="139.7" r="3" fill="#4C6EF5"/>
+<circle cx="476.1" cy="196.3" r="3" fill="#4C6EF5"/>
+<circle cx="508.3" cy="216.5" r="3" fill="#4C6EF5"/>
+<circle cx="540.4" cy="197.7" r="3" fill="#4C6EF5"/>
+<circle cx="572.6" cy="207.7" r="3" fill="#4C6EF5"/>
+<circle cx="604.8" cy="208.0" r="3" fill="#4C6EF5"/>
+<circle cx="637.0" cy="210.5" r="3" fill="#4C6EF5"/>
+<circle cx="669.1" cy="192.6" r="3" fill="#4C6EF5"/>
+<circle cx="701.3" cy="191.4" r="3" fill="#4C6EF5"/>
+<circle cx="733.5" cy="221.4" r="3" fill="#4C6EF5"/>
+<circle cx="765.7" cy="215.2" r="3" fill="#4C6EF5"/>
+<circle cx="797.8" cy="139.3" r="3" fill="#4C6EF5"/>
+<circle cx="830.0" cy="118.0" r="3" fill="#4C6EF5"/>
+<line x1="800" y1="106" x2="822" y2="106" stroke="#4C6EF5" stroke-width="3"/>
+<text x="830" y="110" font-size="13" fill="#495057">Revenue</text>
+<text x="966" y="510" text-anchor="end" font-size="11" fill="#ced4da">fashion_sales.csv</text>
+</svg>

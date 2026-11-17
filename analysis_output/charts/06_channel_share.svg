@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<rect width="900" height="460" fill="#ffffff"/>
+<text x="450.0" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#212529">Revenue Share: Online vs Store</text>
+<text x="450.0" y="56" text-anchor="middle" font-size="13" fill="#868e96">Share of total revenue by sales channel</text>
+<path d="M 260.0 100.0 A 150 150 0 1 1 234.7 397.9 L 244.8 338.7 A 90 90 0 1 0 260.0 160.0 Z" fill="#4C6EF5" stroke="#ffffff" stroke-width="2"/>
+<text x="379.6" y="264.1" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">53%</text>
+<path d="M 234.7 397.9 A 150 150 0 0 1 260.0 100.0 L 260.0 160.0 A 90 90 0 0 0 244.8 338.7 Z" fill="#F76707" stroke="#ffffff" stroke-width="2"/>
+<text x="140.4" y="243.9" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">47%</text>
+<text x="260" y="246" text-anchor="middle" font-size="13" fill="#868e96">Total</text>
+<text x="260" y="268" text-anchor="middle" font-size="17" font-weight="700" fill="#212529">$13.22M</text>
+<rect x="480" y="150" width="16" height="16" rx="3" fill="#4C6EF5"/>
+<text x="506" y="163" font-size="14" fill="#343a40">Online</text>
+<text x="506" y="180" font-size="12" fill="#868e96">$6.97M (53%)</text>
+<rect x="480" y="184" width="16" height="16" rx="3" fill="#F76707"/>
+<text x="506" y="197" font-size="14" fill="#343a40">Store</text>
+<text x="506" y="214" font-size="12" fill="#868e96">$6.25M (47%)</text>
+<text x="886" y="450" text-anchor="end" font-size="11" fill="#ced4da">fashion_sales.csv</text>
+</svg>

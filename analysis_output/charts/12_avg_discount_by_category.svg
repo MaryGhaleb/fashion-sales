@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="490" viewBox="0 0 900 490" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<rect width="900" height="490" fill="#ffffff"/>
+<text x="450.0" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#212529">Average Discount by Category</text>
+<text x="450.0" y="56" text-anchor="middle" font-size="13" fill="#868e96">Mean discount percentage per category</text>
+<line x1="150.0" y1="90" x2="150.0" y2="440" stroke="#f1f3f5" stroke-width="1"/>
+<text x="150.0" y="462" text-anchor="middle" font-size="11" fill="#868e96">$0</text>
+<line x1="274.0" y1="90" x2="274.0" y2="440" stroke="#f1f3f5" stroke-width="1"/>
+<text x="274.0" y="462" text-anchor="middle" font-size="11" fill="#868e96">$5</text>
+<line x1="398.0" y1="90" x2="398.0" y2="440" stroke="#f1f3f5" stroke-width="1"/>
+<text x="398.0" y="462" text-anchor="middle" font-size="11" fill="#868e96">$10</text>
+<line x1="522.0" y1="90" x2="522.0" y2="440" stroke="#f1f3f5" stroke-width="1"/>
+<text x="522.0" y="462" text-anchor="middle" font-size="11" fill="#868e96">$15</text>
+<line x1="646.0" y1="90" x2="646.0" y2="440" stroke="#f1f3f5" stroke-width="1"/>
+<text x="646.0" y="462" text-anchor="middle" font-size="11" fill="#868e96">$20</text>
+<line x1="770.0" y1="90" x2="770.0" y2="440" stroke="#f1f3f5" stroke-width="1"/>
+<text x="770.0" y="462" text-anchor="middle" font-size="11" fill="#868e96">$25</text>
+<rect x="150" y="103.3" width="539.9" height="43.4" rx="5" fill="#F783AC"/>
+<text x="138" y="130.0" text-anchor="end" font-size="13" fill="#495057">Accessories</text>
+<text x="697.9" y="130.0" font-size="12" font-weight="600" fill="#343a40">21.8%</text>
+<rect x="150" y="173.3" width="568.3" height="43.4" rx="5" fill="#12B886"/>
+<text x="138" y="200.0" text-anchor="end" font-size="13" fill="#495057">Denim</text>
+<text x="726.3" y="200.0" font-size="12" font-weight="600" fill="#343a40">22.9%</text>
+<rect x="150" y="243.3" width="552.8" height="43.4" rx="5" fill="#4C6EF5"/>
+<text x="138" y="270.0" text-anchor="end" font-size="13" fill="#495057">Dresses</text>
+<text x="710.8" y="270.0" font-size="12" font-weight="600" fill="#343a40">22.3%</text>
+<rect x="150" y="313.3" width="516.7" height="43.4" rx="5" fill="#7048E8"/>
+<text x="138" y="340.0" text-anchor="end" font-size="13" fill="#495057">Footwear</text>
+<text x="674.7" y="340.0" font-size="12" font-weight="600" fill="#343a40">20.8%</text>
+<rect x="150" y="383.3" width="620.0" height="43.4" rx="5" fill="#F76707"/>
+<text x="138" y="410.0" text-anchor="end" font-size="13" fill="#495057">Outerwear</text>
+<text x="778.0" y="410.0" font-size="12" font-weight="600" fill="#343a40">25.0%</text>
+<text x="886" y="480" text-anchor="end" font-size="11" fill="#ced4da">fashion_sales.csv</text>
+</svg>
